@@ -1,0 +1,54 @@
+$(document).ready(function() {
+CucumberHTML.timelineItems.pushArray([
+  {
+    "id": "e10b6be4-049c-4767-9acc-aae750f0ce68",
+    "feature": "Adding products and modifying the product quantity in Argos Trolley page",
+    "scenario": "Validate the added product in the basket",
+    "start": 1715327869157,
+    "group": 1,
+    "content": "",
+    "tags": "@skip,",
+    "end": 1715327871119,
+    "className": "skipped"
+  },
+  {
+    "id": "84c0824c-e602-4706-914d-c5010aa2d0e5",
+    "feature": "Validating the added products in the basket and verifying subtotal change",
+    "scenario": "Search for a product, add it to the basket, and validate",
+    "start": 1715327873088,
+    "group": 1,
+    "content": "",
+    "tags": "",
+    "end": 1715327879492,
+    "className": "failed"
+  },
+  {
+    "id": "b0e2bef6-e1d2-423d-bd0d-1be429c1c639",
+    "feature": "Adding products and modifying the product quantity in Argos Trolley page",
+    "scenario": "Validate search result page content matches the search criteria entered",
+    "start": 1715327866543,
+    "group": 1,
+    "content": "",
+    "tags": "@skip,",
+    "end": 1715327869146,
+    "className": "skipped"
+  },
+  {
+    "id": "130be784-3461-48ac-84c9-0c67f1f44218",
+    "feature": "Adding products and modifying the product quantity in Argos Trolley page",
+    "scenario": "Increase quantity of product in the basket and validate subtotal",
+    "start": 1715327871122,
+    "group": 1,
+    "content": "",
+    "tags": "@skip,",
+    "end": 1715327873084,
+    "className": "skipped"
+  }
+]);
+CucumberHTML.timelineGroups.pushArray([
+  {
+    "id": 1,
+    "content": "Thread[main,5,main]"
+  }
+]);
+});

@@ -1,0 +1,15 @@
+//package testrunner;
+//
+//import org.junit.runner.RunWith;
+//
+//import net.serenitybdd.cucumber.CucumberWithSerenity;
+//import io.cucumber.junit.CucumberOptions;
+//
+//@RunWith(CucumberWithSerenity.class)
+//@CucumberOptions(features = { "src/test/resources/features" }, 
+//				 glue = { "stepDefinitions", "apphooks" },
+////				 tags="not @Skip",
+//				 plugin = {"pretty"})
+//public class SerenityTestRunner {
+//
+//}

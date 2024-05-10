@@ -1,0 +1,23 @@
+package stepDefinitions;
+
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import pages.SearchResultsPage;
+
+public class SearchResultsPageSteps {
+	
+    SearchResultsPage searchResultsPage;
+	
+	@Then("I should see search results containing {string}")
+	public void i_should_see_search_results_containing(String string) {
+        searchResultsPage = new SearchResultsPage(driver);
+        searchResultsPage.verifySearchResultsPage(productName);
+	}
+
+	@When("I add the first product to the basket")
+	public void i_add_the_first_product_to_the_basket() {
+        searchResultsPage = new SearchResultsPage(driver);
+        searchResultsPage.addProductToBasket();
+	}
+
+}

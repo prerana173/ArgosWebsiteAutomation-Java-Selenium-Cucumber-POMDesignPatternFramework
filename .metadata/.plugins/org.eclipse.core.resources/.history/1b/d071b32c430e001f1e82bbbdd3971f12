@@ -1,0 +1,20 @@
+package stepDefinitions;
+
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class SearchResultsPageSteps {
+	
+	@Then("I should see search results containing {string}")
+	public void i_should_see_search_results_containing(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("I add the first product to the basket")
+	public void i_add_the_first_product_to_the_basket() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+}

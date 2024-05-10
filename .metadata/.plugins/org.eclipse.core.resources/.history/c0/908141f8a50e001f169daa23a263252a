@@ -1,0 +1,19 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class BasketPage {
+	
+	private WebDriver driver;
+
+	private By searchTextBoxLocator = By.id("searchTerm");
+	private By searchIconLocator = By.xpath("//button[@data-test='search-button']");
+	private By cookiesSectionLocator = By.xpath("//*[@class='explicit-consent-prompt']");
+	private By requiredCookiesButtonLocator = By.xpath("//button[@id='explicit-consent-prompt-reject']");
+
+	public BasketPage(WebDriver driver) {
+		this.driver = driver;
+	}
+
+}

@@ -1,0 +1,20 @@
+package stepDefinitions;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+
+public class HomePageSteps {
+
+	@Given("I am on the Argos website")
+	public void i_am_on_the_argos_website() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("I search for {string}")
+	public void i_search_for(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+}

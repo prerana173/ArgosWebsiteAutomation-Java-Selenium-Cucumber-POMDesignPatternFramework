@@ -1,0 +1,65 @@
+$(document).ready(function() {
+CucumberHTML.timelineItems.pushArray([
+  {
+    "id": "54b76a83-f3f0-442a-8639-abb6b2a0539b",
+    "feature": "Validating the added products in the basket and verifying subtotal change",
+    "scenario": "Search for a product, add it to the basket, and validate",
+    "start": 1715329520281,
+    "group": 1,
+    "content": "",
+    "tags": "",
+    "end": 1715329540785,
+    "className": "passed"
+  },
+  {
+    "id": "75b913f1-0126-45ae-b59b-6f46accefdeb",
+    "feature": "Adding products and modifying the product quantity in Argos Trolley page",
+    "scenario": "Validate the added product in the basket",
+    "start": 1715329516329,
+    "group": 1,
+    "content": "",
+    "tags": "@skip,",
+    "end": 1715329518293,
+    "className": "skipped"
+  },
+  {
+    "id": "ffbbc920-d194-4f48-911d-7c68d1dcb4dc",
+    "feature": "Adding products and modifying the product quantity in Argos Trolley page",
+    "scenario": "Increase quantity of product in the basket and validate subtotal",
+    "start": 1715329518297,
+    "group": 1,
+    "content": "",
+    "tags": "@skip,",
+    "end": 1715329520277,
+    "className": "skipped"
+  },
+  {
+    "id": "20e8d533-1519-4240-9e37-7f59eb141384",
+    "feature": "Validating the added products in the basket and verifying subtotal change",
+    "scenario": "Increase quantity of product in the basket and validate subtotal",
+    "start": 1715329540789,
+    "group": 1,
+    "content": "",
+    "tags": "",
+    "end": 1715329546701,
+    "className": "failed"
+  },
+  {
+    "id": "2f19a756-f5ca-4413-8ed1-b9b48d282a2f",
+    "feature": "Adding products and modifying the product quantity in Argos Trolley page",
+    "scenario": "Validate search result page content matches the search criteria entered",
+    "start": 1715329513699,
+    "group": 1,
+    "content": "",
+    "tags": "@skip,",
+    "end": 1715329516319,
+    "className": "skipped"
+  }
+]);
+CucumberHTML.timelineGroups.pushArray([
+  {
+    "id": 1,
+    "content": "Thread[main,5,main]"
+  }
+]);
+});

@@ -1,0 +1,31 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class HomePage {
+
+	private WebDriver driver;
+
+	private By searchTextBoxLocator = By.id("searchTerm");
+	private By searchIconLocator = By.xpath("//button[@data-test='search-button']");
+	private By cookiesSectionLocator = By.xpath("//*[@class='explicit-consent-prompt']");
+	private By requiredCookiesButtonLocator = By.xpath("//button[@id='explicit-consent-prompt-reject']");
+
+	public HomePage(WebDriver driver) {
+		this.driver = driver;
+	}
+
+	public void acceptCookies() {
+		if (driver.findElement(cookiesSectionLocator).isDisplayed()) {
+			driver.findElement(requiredCookiesButtonLocator).click();
+		}
+	}
+
+	public void searchProduct(String productName) {
+		acceptCookies();
+		driver.findElement(searchTextBoxLocator).sendKeys(productName);
+		driver.findElement(searchIconLocator).click();
+	}
+
+}

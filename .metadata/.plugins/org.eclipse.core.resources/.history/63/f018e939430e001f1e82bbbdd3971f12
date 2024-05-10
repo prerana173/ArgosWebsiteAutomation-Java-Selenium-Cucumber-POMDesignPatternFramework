@@ -1,0 +1,25 @@
+package stepDefinitions;
+
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class BasketPageSteps {
+
+	@Then("I should see {string} in the basket")
+	public void i_should_see_in_the_basket(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("I increase the quantity by {int}")
+	public void i_increase_the_quantity_by(Integer int1) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("the subtotal should be updated accordingly")
+	public void the_subtotal_should_be_updated_accordingly() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+}
